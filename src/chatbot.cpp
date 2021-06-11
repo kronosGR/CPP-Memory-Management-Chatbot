@@ -45,6 +45,58 @@ ChatBot::~ChatBot()
 //// STUDENT CODE
 ////
 
+// move constructor
+ChatBot::ChatBot(ChatBot &&src)
+{
+    _chatLogic = src._chatLogic;
+    _image = src._image;
+    _rootNode = src._rootNode;
+    _chatLogic->SetChatbotHandle(this);
+
+    src._chatLogic = NULL;
+    src._image = NULL;   
+
+    stc::cout<< "Chatbot Move constructor\n";
+}
+
+// copy constructor
+ChatBot::ChatBot(Chatbot &src)
+{
+    _chatLogic = src._chatlogic;
+    _image = *src._image;
+    _rootNode = src._rootNode;
+    _chatLogic->SetChatbotHandle(this);
+
+    src._chatLogic = NULL;
+    src._image = NULL;   
+
+    stc::cout<< "Chatbot Copy constructor\n";
+
+}
+
+// Move assignment operator
+ChatBot &ChatBot::operator=(ChatBot &&src)
+{
+    if (this == &src) return *this;
+    if (_image != NULL) delete _image;
+
+    _chatLogic = src._chatLogic;
+    _image = src._image;
+    _rootNode = src._rootNode;
+    _chatLogic->SetChatbotHandle(this);
+
+    src._chatLogic = NULL;
+    src._image = NULL;   
+
+    stc::cout<< "Chatbot Move assignment operator\n";
+}
+
+// copy assignment operator
+ChatBot &ChatBot::operator=(ChatBot &src)
+{
+    //TODO
+}
+
 ////
 //// EOF STUDENT CODE
 
