@@ -56,21 +56,21 @@ ChatBot::ChatBot(ChatBot &&src)
     src._chatLogic = NULL;
     src._image = NULL;   
 
-    stc::cout<< "Chatbot Move constructor\n";
+    std::cout<< "Chatbot Move constructor\n";
 }
 
 // copy constructor
-ChatBot::ChatBot(Chatbot &src)
+ChatBot::ChatBot(ChatBot &src)
 {
-    _chatLogic = src._chatlogic;
-    _image = *src._image;
+    _chatLogic = src._chatLogic;
+    _image = src._image;
     _rootNode = src._rootNode;
     _chatLogic->SetChatbotHandle(this);
 
     src._chatLogic = NULL;
     src._image = NULL;   
 
-    stc::cout<< "Chatbot Copy constructor\n";
+    std::cout<< "Chatbot Copy constructor\n";
 
 }
 
@@ -88,13 +88,24 @@ ChatBot &ChatBot::operator=(ChatBot &&src)
     src._chatLogic = NULL;
     src._image = NULL;   
 
-    stc::cout<< "Chatbot Move assignment operator\n";
+    std::cout<< "Chatbot Move assignment operator\n";
 }
 
 // copy assignment operator
 ChatBot &ChatBot::operator=(ChatBot &src)
 {
-    //TODO
+    if (this == &src)  return *this;
+    if (_image != NULL) delete _image;
+
+    _chatLogic = src._chatLogic;
+    _image = src._image;
+    _rootNode = src._rootNode;
+    _chatLogic->SetChatbotHandle(this);
+
+    src._chatLogic = NULL;
+    src._image = NULL;   
+
+    std::cout<< "Chatbot Copy assignment operator\n";
 }
 
 ////
