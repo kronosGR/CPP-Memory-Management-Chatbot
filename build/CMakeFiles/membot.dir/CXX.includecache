@@ -6,45 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.cpp
-iostream
--
-random
--
-algorithm
--
-ctime
--
-chatlogic.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatlogic.h
-graphnode.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.h
-chatbot.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.h
-
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
-
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.h
-chatlogic.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatlogic.h
-chatgui.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatgui.h
 
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatgui.h
 memory
@@ -86,23 +52,11 @@ memory
 chatgui.h
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatgui.h
 
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.cpp
-graphnode.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.h
-
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
 -
-
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.cpp
-graphedge.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.h
 
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.h
 vector
