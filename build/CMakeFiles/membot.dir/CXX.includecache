@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatlogic.h
+graphnode.h
+/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphnode.h
+graphedge.h
+/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/graphedge.h
+chatbot.h
+/home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.h
+
 /home/kronos/DISKS/CLOUD/CLOUD/DEV/CPP/learning/UDACITY/CPP-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -

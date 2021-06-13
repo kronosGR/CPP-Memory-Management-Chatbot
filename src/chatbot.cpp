@@ -63,7 +63,7 @@ ChatBot::ChatBot(ChatBot &&src)
 ChatBot::ChatBot(ChatBot &src)
 {
     _chatLogic = src._chatLogic;
-    _image = src._image;
+    _image = new wxBitmap(*src._image);
     _rootNode = src._rootNode;
     _chatLogic->SetChatbotHandle(this);
 
@@ -98,7 +98,7 @@ ChatBot &ChatBot::operator=(ChatBot &src)
     if (_image != NULL) delete _image;
 
     _chatLogic = src._chatLogic;
-    _image = src._image;
+    _image = new wxBitmap(*src._image);
     _rootNode = src._rootNode;
     _chatLogic->SetChatbotHandle(this);
 
